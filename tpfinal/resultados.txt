@@ -1,0 +1,32 @@
+maxDist = 3889, 2967, 4811, 12487
+
+geracoes = 100 125 150
+
+num_clones total = 40, 60
+
+
+3889_50_40 = 112 locais, melhor = 292577144, tempo 166seg
+3889_100_40 = 108, 268108526, 225
+3889_125_40 = 95, 266884037, 265
+3889_150_40 = 106, 260666013, 403
+
+4811_100_40 = 104, 307488306, 180
+4811_125_40 = 105, 314435949, 226
+4811_150_40 = 93, 295841790, 260
+
+2967_100_40 = 109, 201964174, 636
+2967_100_40 = 115, 210006314, 409
+2967_100_40 = 105, 200339079,381
+
+12487_100_40 = 104, 448950835, 161
+12487_125_40 = 100, 418887009, 237
+12487_150_40 = 99,  419288709, 534
+
+
+Resultados
+
+O objetivo da execução do clonalg não é somente observar se o resultado obtido é satisfatório ou não, mas sim analisar como que o algoritmo se comporta. Para observar tal comportamento, o código foi executado diversas vezes, alternando parâmetros para poder obter uma análise mais precisa sobra influência e sensibilidade dos parâmetros do algoritmo. A tabela a seguir mostra os possíveis valores que as varáveis podem receber: 
+
+tabela dos valores dos parâmetros.
+
+Observando a tabela vale ressaltar que os valores de Distância Máxima não foram gerados aleatoriamente, o número 3889 é o valor da média de todas as distâncias entre setores e locais de voto. Dado o valor da média, outros dois valores (2967 e 4811) foram calculados subtraindo o desvio padrão pela média das distâncias e somando, respectivamente. O último valor da tabela é a maior distância existente de um setor à um local de voto.

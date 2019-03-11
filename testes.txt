@@ -1,0 +1,6 @@
+Rodar:
+    - Altera pop 3x mantem resto.
+    - Altera gerações 3x mantem resto. Esses 2 testam escalabilidade
+    - Altera mutação 3x mantem o resto.
+    - Faz isso tudo pra com e sem elitismo.
+    
